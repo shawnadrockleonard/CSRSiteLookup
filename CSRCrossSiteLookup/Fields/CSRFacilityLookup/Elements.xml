@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4bb3266f-6ad1-4b7a-93ea-c4feb2792119}"
+       Name="CSRFacilityLookup"
+       DisplayName="CSR Facility Lookup"
+       Type="Text"
+       Required="FALSE" 
+       JSLink="~sitecollection/SiteAssets/JS/jquery-1.11.3.min.js|~sitecollection/SiteAssets/JS/CrossSiteLookupField.js|~sitecollection/SiteAssets/JS/CrossSiteLookupFieldTemplate.js"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

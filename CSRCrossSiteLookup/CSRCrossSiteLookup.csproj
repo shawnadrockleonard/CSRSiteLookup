@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37C12CD0-0251-4B90-BB68-9CF583B5C572}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSRCrossSiteLookup</RootNamespace>
+    <AssemblyName>CSRCrossSiteLookup</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Customization\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{84cf8922-7f26-428d-8740-64e7e306e97b}</SharePointProjectItemId>
+    </None>
+    <None Include="Content\JS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2003ad5b-25e4-459c-86ae-8eea48a3d0e0}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FacilityListFeature\FacilityListFeature.feature">
+      <FeatureId>{06c27c9d-8482-4d63-9b80-7e149d49894a}</FeatureId>
+    </None>
+    <None Include="Features\FacilityFieldFeature\FacilityFieldFeature.feature">
+      <FeatureId>{c7616653-c814-4beb-b1ef-b2f26f819b30}</FeatureId>
+    </None>
+    <None Include="Features\FacilityAssetFeature\FacilityAssetFeature.feature">
+      <FeatureId>{62c20452-6e30-40c3-84ff-070ae2b76e83}</FeatureId>
+    </None>
+    <None Include="Fields\CSRFacilityLookup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a24c1653-9e09-48a1-925c-cc91bcb71a52}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Lists\Facility\FacilityInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c52f61e3-d91a-414f-a372-bf88dcab2a90}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Facility\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{89b6f153-346e-4e92-ad4c-4cea35ebf1f7}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{b35a9613-1d4e-468c-8a92-efa4915fe555}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Content\JS\jquery-1.11.3.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Customization\Elements.xml" />
+    <Content Include="Content\JS\CrossSiteCustomization.js" />
+    <Content Include="Content\JS\CrossSiteLookupField.js" />
+    <Content Include="Content\JS\CrossSiteLookupFieldTemplate.js" />
+    <Content Include="Content\JS\CrossSiteLookupFieldModal.js" />
+    <Content Include="Content\JS\Elements.xml" />
+    <Content Include="Content\JS\EnableJS.html" />
+    <Content Include="Features\FacilityListFeature\FacilityListFeature.Template.xml">
+      <DependentUpon>FacilityListFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\FacilityFieldFeature\FacilityFieldFeature.Template.xml">
+      <DependentUpon>FacilityFieldFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\FacilityAssetFeature\FacilityAssetFeature.Template.xml">
+      <DependentUpon>FacilityAssetFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Fields\CSRFacilityLookup\Elements.xml" />
+    <Content Include="Lists\Facility\Elements.xml" />
+    <Content Include="Lists\Facility\FacilityInstance\Elements.xml" />
+    <Content Include="Lists\Facility\Schema.xml" />
+    <Content Include="Content\JS\jquery-1.11.3.intellisense.js" />
+    <Content Include="Content\JS\jquery-1.11.3.js" />
+    <Content Include="Content\JS\jquery-1.11.3.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

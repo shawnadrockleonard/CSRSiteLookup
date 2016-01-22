@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="JS" Url="SiteAssets">
+    <File Path="JS\CrossSiteLookupField.js" Url="JS/CrossSiteLookupField.js" />
+    <File Path="JS\jquery-1.11.3.min.map" Url="JS/jquery-1.11.3.min.map" />
+    <File Path="JS\jquery-1.11.3.min.js" Url="JS/jquery-1.11.3.min.js" />
+    <File Path="JS\jquery-1.11.3.js" Url="JS/jquery-1.11.3.js" />
+    <File Path="JS\jquery-1.11.3.intellisense.js" Url="JS/jquery-1.11.3.intellisense.js" />
+    <File Path="JS\CrossSiteLookupFieldTemplate.js" Url="JS/CrossSiteLookupFieldTemplate.js" />
+    <File Path="JS\CrossSiteLookupFieldModal.js" Url="JS/CrossSiteLookupFieldModal.js" />
+    <File Path="JS\CrossSiteCustomization.js" Url="JS/CrossSiteCustomization.js" />
+    <File Path="JS\EnableJS.html" Url="JS/EnableJS.html" />
+  </Module>
+</Elements>

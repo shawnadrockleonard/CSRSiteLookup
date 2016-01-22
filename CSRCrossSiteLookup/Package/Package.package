@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b35a9613-1d4e-468c-8a92-efa4915fe555" solutionId="b35a9613-1d4e-468c-8a92-efa4915fe555" resetWebServer="false" sharePointProductVersion="15.0" name="CSRCrossSiteLookup" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="06c27c9d-8482-4d63-9b80-7e149d49894a" />
+    <featureReference itemId="c7616653-c814-4beb-b1ef-b2f26f819b30" />
+    <featureReference itemId="62c20452-6e30-40c3-84ff-070ae2b76e83" />
+  </features>
+</package>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\Accordion.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\BasicRepeater.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\ConfidentialDocuments.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\DisableInput.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\FullyCustomizedForm.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\HiddenField.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\HideEmptyColumn.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\HTML5NumberInput.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\PercentComplete.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\PriorityColor.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\ReadOnlySPControls.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\RegexValidator.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\SubstringLongText.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\Tabs.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\imgs\Confidential.png" Target="Scripts\JSLink-Samples\imgs\" Type="ElementFile" />
+    <ProjectItemFile Source="JSLink-Samples\CrossSiteLookupField.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\Accordion.js" Url="Scripts/JSLink-Samples/Accordion.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\BasicRepeater.js" Url="Scripts/JSLink-Samples/BasicRepeater.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\ConfidentialDocuments.js" Url="Scripts/JSLink-Samples/ConfidentialDocuments.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\DisableInput.js" Url="Scripts/JSLink-Samples/DisableInput.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\FullyCustomizedForm.js" Url="Scripts/JSLink-Samples/FullyCustomizedForm.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\HiddenField.js" Url="Scripts/JSLink-Samples/HiddenField.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\HideEmptyColumn.js" Url="Scripts/JSLink-Samples/HideEmptyColumn.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\HTML5NumberInput.js" Url="Scripts/JSLink-Samples/HTML5NumberInput.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\PercentComplete.js" Url="Scripts/JSLink-Samples/PercentComplete.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\PriorityColor.js" Url="Scripts/JSLink-Samples/PriorityColor.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\ReadOnlySPControls.js" Url="Scripts/JSLink-Samples/ReadOnlySPControls.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\RegexValidator.js" Url="Scripts/JSLink-Samples/RegexValidator.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\SubstringLongText.js" Url="Scripts/JSLink-Samples/SubstringLongText.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\Tabs.js" Url="Scripts/JSLink-Samples/Tabs.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\imgs\Confidential.png" Url="Scripts/JSLink-Samples/imgs/Confidential.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\JSLink-Samples\CrossSiteLookupField.js" Url="Scripts/JSLink-Samples/CrossSiteLookupField.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

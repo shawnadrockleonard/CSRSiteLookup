@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="adc3830e-452e-47ed-8bc5-1be6e24234a0" 
+        solutionId="adc3830e-452e-47ed-8bc5-1be6e24234a0" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="CSRCustomFields"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="b976743d-02c3-4d9e-88f0-cba9e769192d" />
+  </features>
+</package>

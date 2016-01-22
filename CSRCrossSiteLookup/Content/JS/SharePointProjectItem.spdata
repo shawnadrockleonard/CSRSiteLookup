@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="JS\" Type="ElementManifest" />
+    <ProjectItemFile Source="CrossSiteLookupField.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.11.3.min.map" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.11.3.min.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.11.3.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.11.3.intellisense.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="CrossSiteLookupFieldTemplate.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="CrossSiteLookupFieldModal.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="CrossSiteCustomization.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="EnableJS.html" Target="JS\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
