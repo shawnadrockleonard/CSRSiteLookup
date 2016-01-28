@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRCrossSiteLookup", "CSRCrossSiteLookup\CSRCrossSiteLookup.csproj", "{37C12CD0-0251-4B90-BB68-9CF583B5C572}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C4F5F51-8B1E-48EA-91A0-1F3A5C83AE06}"
-	ProjectSection(SolutionItems) = preProject
-		Publish\CSRCrossSiteLookup.wsp = Publish\CSRCrossSiteLookup.wsp
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
