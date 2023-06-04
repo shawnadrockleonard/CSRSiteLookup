@@ -6,7 +6,7 @@
        DisplayName="CSR Facility Lookup"
        Type="Text"
        Required="FALSE" 
-       JSLink="~sitecollection/SiteAssets/JS/jquery-1.11.3.min.js|~sitecollection/SiteAssets/JS/CrossSiteLookupField.js|~sitecollection/SiteAssets/JS/CrossSiteLookupFieldTemplate.js"
+       JSLink="~sitecollection/SiteAssets/JS/jquery-3.7.0.min.js|~sitecollection/SiteAssets/JS/CrossSiteLookupField.js|~sitecollection/SiteAssets/JS/CrossSiteLookupFieldTemplate.js"
        Group="Custom Site Columns">
   </Field>
 </Elements>

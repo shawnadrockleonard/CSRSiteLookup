@@ -3,13 +3,13 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="JS\" Type="ElementManifest" />
     <ProjectItemFile Source="CrossSiteLookupField.js" Target="JS\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.11.3.min.map" Target="JS\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.11.3.min.js" Target="JS\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.11.3.js" Target="JS\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.11.3.intellisense.js" Target="JS\" Type="ElementFile" />
     <ProjectItemFile Source="CrossSiteLookupFieldTemplate.js" Target="JS\" Type="ElementFile" />
     <ProjectItemFile Source="CrossSiteLookupFieldModal.js" Target="JS\" Type="ElementFile" />
     <ProjectItemFile Source="CrossSiteCustomization.js" Target="JS\" Type="ElementFile" />
     <ProjectItemFile Source="EnableJS.html" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.intellisense.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.min.js" Target="JS\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.min.map" Target="JS\" Type="ElementFile" />
   </Files>
 </ProjectItem>
