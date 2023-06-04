@@ -3,10 +3,6 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
     <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="JSLink-Samples\Accordion.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
     <ProjectItemFile Source="JSLink-Samples\BasicRepeater.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
     <ProjectItemFile Source="JSLink-Samples\ConfidentialDocuments.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
@@ -23,5 +19,12 @@
     <ProjectItemFile Source="JSLink-Samples\Tabs.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
     <ProjectItemFile Source="JSLink-Samples\imgs\Confidential.png" Target="Scripts\JSLink-Samples\imgs\" Type="ElementFile" />
     <ProjectItemFile Source="JSLink-Samples\CrossSiteLookupField.js" Target="Scripts\JSLink-Samples\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.slim.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.slim.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.slim.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.7.0.intellisense.js" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>
